@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz sobre animais marinhos</title>
+    <style>
+        body{
+            background-color: rgb(26, 115, 115);
+        }
+        #p1{
+            color:aliceblue;
+            font: normal 20pt Arial;
+        }
+        #titulo{
+            color: aliceblue;
+            font: normal 30pt Serif;
+            
+        }
+        #alternativa1{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa2{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa3{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #res{
+            color:aliceblue;
+        }
+        #p2{
+            color:aliceblue;
+            font: normal 20pt Arial;
+        }
+        #alternativa4{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa5{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa6{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #res2{
+            color:aliceblue;
+        }
+        
+    
+        #p3{
+            color:aliceblue;
+            font: normal 20pt Arial;
+        }
+        #alternativa7{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa8{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa9{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #res3{
+            color:aliceblue;
+        }
+        h1{
+            color:aliceblue;
+            font: normal 30pt Serif;
+        }
+        
+        #p4{
+            color:aliceblue;
+            font: normal 20pt Arial;
+        }
+        #alternativa10{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa11{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa12{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #res4{
+            color:aliceblue;
+        }
+        #p5{
+            color:aliceblue;
+            font: normal 20pt Arial;
+        }
+        #alternativa13{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa14{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #alternativa15{
+            font: normal 15pt Arial;
+            color:aliceblue;
+        }
+        #res5{
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    
+    <div id="titulo"> QUIZ MARINHO <br> <br> </div>
+    <h1>
+        Bem-vindo ao quiz marinho! Prepare-se para mergulhar em um oceano de curiosidades e desafios sobre a vida marinha. Dos peixes coloridos aos gigantes das profundezas, 
+        este quiz vai testar seu conhecimento sobre os habitantes dos mares.
+    </h1><br> <br> <br> <br> 
+    <div id= "p1"> 1 - Qual é o peixe mais rápido do oceano?<br><br> </div>
+    <div id="alternativa1" > a -  Marlim-azul <br><br></div>
+    <div id = "alternativa2" > b - Atum-rabilho<br><br></div>
+    <div id="alternativa3"> c - Tubarão-martelo<br><br></div>
+    <input type = "text" id="resposta"> <!-- botão -->
+    <div id="res">
+        resultado:
+    </div>
+    <button onclick = "verificarresposta()"> enviar </button><br><br><br><br>
+
+    <div id= "p2"> 2 - Qual desses peixes é conhecido por sua habilidade de mudar de cor?<br><br> </div>
+    <div id="alternativa4" > a - Salmão <br><br></div>
+    <div id = "alternativa5" > b - Peixe-porco<br><br></div>
+    <div id="alternativa6"> c - Camarão<br><br></div>
+    <input type = "text2" id="resposta2"> <!-- botão -->
+    <div id="res2">
+        resultado:
+    </div>
+    <button onclick = "verificarresposta2()"> enviar </button><br><br><br><br>
+
+
+    <div id= "p3"> 3 - Qual é o animal marinho que possui o maior cérebro em relação ao seu tamanho corporal?<br><br> </div>
+    <div id="alternativa7" > a - Golfinho <br><br></div>
+    <div id = "alternativa8" > b - Baleia<br><br></div>
+    <div id="alternativa9"> c - Polvo<br><br></div>
+    <input type = "text3" id="resposta3"> <!-- botão -->
+    <div id="res3">
+        resultado:
+    </div>
+    <button onclick = "verificarresposta3()"> enviar </button><br><br><br><br>
+
+    <div id= "p4"> 4 - Qual destes peixes é capaz de produzir uma descarga elétrica forte o suficiente para atordoar presas?<br><br> </div>
+    <div id="alternativa10" > a - Raia-elétrica <br><br></div>
+    <div id = "alternativa11" > b - Enguia-elétrica<br><br></div>
+    <div id="alternativa12"> c - Peixe-aranha<br><br></div>
+    <input type = "text4" id="resposta4"> <!-- botão -->
+    <div id="res4">
+        resultado:
+    </div>
+    <button onclick = "verificarresposta4()"> enviar </button><br><br><br><br>
+
+    <div id= "p5"> 5 - Qual é o maior predador do oceano em termos de peso?<br><br> </div>
+    <div id="alternativa13" > a - Orca <br><br></div>
+    <div id = "alternativa14" > b - Tubarão-branco<br><br></div>
+    <div id="alternativa15"> c - Baleia-azul<br><br></div>
+    <input type = "text5" id="resposta5"> <!-- botão -->
+    <div id="res5">
+        resultado:
+    </div>
+    <button onclick = "verificarresposta5()"> enviar </button><br><br><br><br>
+
+</body>
+<script src = "marinho.js"></script>
+</html>
